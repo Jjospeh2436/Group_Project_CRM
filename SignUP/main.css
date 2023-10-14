@@ -1,0 +1,26 @@
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0% 0px; 
+    grid-template-areas: 
+      "Sign-Up img"
+      "Name img"
+      "Email img"
+      "Password img"
+      "Sign-Up-btn img"
+      "paragraph img"
+      "social-link img"; 
+  }
+  .Name {grid-area: Name;margin: auto;font-size: xx-large;}
+  .Email { grid-area: Email;margin: auto;}
+  .Password { grid-area: Password;margin: auto;}
+  .Sign-Up { grid-area: Sign-Up;margin: auto;}
+  .Sign-Up-btn { grid-area: Sign-Up-btn;margin: auto;font-size: large;align-self: stretch;}
+  .paragraph { grid-area: paragraph;margin: auto; }
+  .social-link { grid-area: social-link;justify-self: center; }
+  .img { grid-area: img; }
+
+  
