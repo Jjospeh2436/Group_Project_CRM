@@ -1,0 +1,179 @@
+#Ulist
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+     
+}
+#items
+{
+    position: relative;
+    right:80px;
+}
+#DivList2
+{
+    display: flex;
+}
+#DivBTN1
+{
+    padding-right: 10px;
+}
+#lighttxt>p
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#content
+{
+    display:flex; 
+}
+#C1>h1
+{
+    font-size: 60px;
+}
+#C1>p
+{
+    font-size: 30px;
+}
+#C2>img
+{
+    height: 600px;
+    padding-left: 80px;
+}
+#line
+{
+    width: 50%;
+    position: relative;
+    left:370px;
+    top: 80px; 
+}
+#line>div
+{
+    word-wrap:break-word;
+}
+#items>ul>li
+{
+    display: inline-block;
+    padding-left: 40px;
+}
+.header_items, #DivList
+{
+    margin-top: 11px;
+}
+
+li>p
+{
+    margin-top: 0px;
+}
+li>p>img
+{
+    height: 40px;  
+}
+
+li
+{
+    padding-left: 100px;
+}
+
+#DivList
+{
+    display: flex;
+    flex-direction: row;
+}
+#info
+{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#line
+{
+    text-align: center;
+}
+#info>div
+{
+    background-color: rgb(0, 89, 255);
+}
+#DivList>div
+{ 
+    padding-left: 20px;
+}
+#DivList>div>button
+{ 
+    border-radius: 5px;
+    border-color: blue;
+}
+#DivBTN1>button
+{
+    background-color: white;
+    color:blue;
+}
+#DivBTN2>button
+{
+    background-color: blue;
+    color:white;
+}
+#DivList3
+{
+    display: flex; 
+}
+#DivList3>button
+{ 
+    border-radius: 5px;
+    border-color: blue;
+    background-color: blue;
+    color:white; 
+}
+#FooterBTNS
+{
+    display:flex;
+    position: relative;
+    left:350px;
+}
+#FooterBTNS>div
+{
+padding-left: 30px;
+}
+#DivGet>button
+{ 
+    background-color: green;
+}
+#Logo
+{
+    float:left;
+}
+#Logo>p>span
+{
+    color:blue;
+}
+#Logo>p
+{
+    color:rgb(0, 153, 255)
+}
+
+#content
+{
+    position: relative;
+    left:250px;
+    top:70px;
+}
+
+#info
+{
+    border: 1px black solid;
+    border-radius: 20px;
+}
+
+#footer
+{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    height: 300px;
+    position: relative;
+    top: 80px; 
+}
+
+ 
